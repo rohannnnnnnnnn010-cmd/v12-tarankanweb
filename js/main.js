@@ -524,12 +524,18 @@ document.addEventListener("DOMContentLoaded", async function () {
 
         mapContainer.innerHTML = svgText;
 
+        
+
 
         /* Countries in reveal order */
         const countries = [
             {
                 map: mapContainer.querySelector("#market-usa"),
                 label: document.querySelector(".market-label-usa")
+            },
+            {
+                map: mapContainer.querySelector("#market-brazil"),
+                label: document.querySelector(".market-label-brazil")
             },
             {
                 map: mapContainer.querySelector("#market-germany"),
